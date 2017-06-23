@@ -1,6 +1,10 @@
 {
   "name": "skeleton-css",
   "version": "2.0.4",
+  "style": "combined.css",
+  "scripts": {
+    "postinstall": "node combine.js"
+  },
   "description": "npm installer for Skeleton with normalize.css",
   "repository": {
     "type": "git",
